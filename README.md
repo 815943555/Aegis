@@ -1,3 +1,39 @@
+# Aegis Project Overview (English)
+
+## One-liner
+
+Aegis is a C89 DDD + CQRS framework for embedded/MCU systems. It focuses on **static memory**, **strict dependency injection**, and **hard constraint checks** to enforce architecture discipline and keep iterative development predictable and maintainable.
+
+## Embedded pain points Aegis targets
+
+- Heap fragmentation and timing uncertainty from `malloc/free`.
+- Unsafe calls from ISR leading to rare, hard-to-debug failures.
+- Architecture erosion (cross-layer coupling) as the codebase grows.
+- “Tribal knowledge” conventions that don’t scale with team size.
+- Traceability requirements (e.g., functional safety) that are hard to keep consistent over time.
+
+## Approach
+
+- DDD layers (Domain / Application / Entry / Infrastructure + Common) + CQRS separation to constrain complexity.
+- Entry as the composition root: dependencies (repo/clock/etc.) are assembled in the platform layer and injected, keeping business code independent of Infrastructure.
+- `constraint_checks` enforces naming, layering, ISR safety, traceability, no heap, and no mutable globals at build time.
+
+## Key capabilities
+
+- Domain modeling: Aggregate/AggregateRoot, ValueObject, DomainService, Repository interfaces (read/write split).
+- CQRS: ISR-safe command queue, command routing/execution, query dispatcher returning DTOs.
+- Domain events: sync/async subscriptions, event history and statistics.
+- Productivity: module registration, payload macros (compile-time size checks), scaffolding generator.
+- Ports: runnable `x86_sim` port; STM32F030 porting example as reference.
+
+## Fit / Non-fit
+
+- Fit: bare-metal or minimal RTOS MCU projects that value determinism, constraints, and traceability.
+- Non-fit: systems that require heavy runtime dynamism, plugins, or heap-centric designs.
+
+
+
+
 # Quick Start (Aegis / English)
 
 This is the shortest “copy/paste and run” path. For a deeper guide, see `docs/USAGE.en.md`.
