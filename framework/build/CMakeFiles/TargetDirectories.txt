@@ -1,0 +1,11 @@
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/framework_common.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/framework_infrastructure.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/framework_domain.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/framework_application.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/c_ddd_framework.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/edit_cache.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/list_install_components.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/install.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/install/local.dir
+/mnt/d/c_workspace/new_work/c_ddd/framework/build/CMakeFiles/install/strip.dir

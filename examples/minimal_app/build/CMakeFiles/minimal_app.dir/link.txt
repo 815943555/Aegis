@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/minimal_app.dir/main.c.o -o minimal_app  framework/libc_ddd_framework.a libminimal_app_port.a 

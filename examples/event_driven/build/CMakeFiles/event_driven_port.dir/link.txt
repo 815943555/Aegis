@@ -1,0 +1,2 @@
+/usr/bin/ar qc libevent_driven_port.a CMakeFiles/event_driven_port.dir/mnt/d/c_workspace/new_work/c_ddd/framework/port/x86_sim/port_critical.c.o CMakeFiles/event_driven_port.dir/mnt/d/c_workspace/new_work/c_ddd/framework/port/x86_sim/port_hal_gpio.c.o CMakeFiles/event_driven_port.dir/mnt/d/c_workspace/new_work/c_ddd/framework/port/x86_sim/port_hal_timer.c.o
+/usr/bin/ranlib libevent_driven_port.a

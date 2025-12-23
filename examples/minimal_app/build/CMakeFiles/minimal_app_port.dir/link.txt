@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminimal_app_port.a CMakeFiles/minimal_app_port.dir/mnt/d/c_workspace/new_work/c_ddd/framework/port/x86_sim/port_critical.c.o CMakeFiles/minimal_app_port.dir/mnt/d/c_workspace/new_work/c_ddd/framework/port/x86_sim/port_hal_gpio.c.o CMakeFiles/minimal_app_port.dir/mnt/d/c_workspace/new_work/c_ddd/framework/port/x86_sim/port_hal_timer.c.o
+/usr/bin/ranlib libminimal_app_port.a
